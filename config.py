@@ -11,7 +11,7 @@ api_url = "https://api.spotify.com"
 auth_string_bytes = f"{client_id}:{client_secret}".encode("utf-8")
 base64_string = base64.b64encode(auth_string_bytes).decode('utf-8')
 
-redirect_ui = "https://bug-free-pancake-rx4w64x9x5qhxw7g-5000.app.github.dev/callback"
+redirect_ui = "https://spotify-analyzer-w5n7.onrender.com/callback"
 
 scopes = ["playlist-read-private", 
     "playlist-modify-private", 
