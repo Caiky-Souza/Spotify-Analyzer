@@ -1,5 +1,5 @@
 
-from .config import *
+from config import *
 from flask import *
 from functools import wraps
 import requests

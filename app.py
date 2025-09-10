@@ -1,7 +1,7 @@
 import requests, os
 
-from .helpers import *
-from .config import client_id, redirect_ui, base64_string, scopes_string, header, api_url
+from helpers import *
+from config import client_id, redirect_ui, base64_string, scopes_string, header, api_url
 from flask import Flask, render_template, request, redirect, session
 
 app = Flask(__name__)
