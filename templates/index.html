@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+    {% block body %}
+    <main class="index-main-container">
+        <div class="main-header">
+            <nav>
+                <a class="nav-button">Estatísticas</a>
+                <a class="nav-button" href="/logout">Logout</a>
+            </nav>
+            
+        </div>
+        <h1>Bem vindo, {{ user }}!</h1>
+        <hr class="green">
+        <section class="index-section">
+            <h3>Mais Ouvidas</h3>
+            <div class="mais-ouvidas">
+                <ul class="ul-card">
+                    
+                    {% for song in tracks %}
+                        <a href={{ song["external_urls"]["spotify"] }} target="_blank">
+                            <li>
+                            
+                                <div class="item-card">
+                                    <img class="track-img" src={{ song["album"]["images"][0]["url"] }}>
+                                    <p>{{ song["name"].lower() }}</p>
+                                </div>
+                        </li>
+
+                        </a>
+                        
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </section>
+        
+        <section class="index-section">
+            <h3>Top Artistas</h3>
+            <div class="top-artistas">
+            <ul class="ul-card">
+                {% for artist in artists %}
+                    <li>
+                        <div class="item-card">
+                            <img class="track-img" src={{ artist["images"][0]["url"] }}>
+                            <p>{{ artist["name"].lower() }}</p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        </section>
+
+        <section class="index-section">
+            <h3>Estatísticas Gerais</h3>
+
+            <p>Gêneros musicais</p>
+            <div class="genres-graphic-container">
+                <canvas class="genres_graphic" src=""></canvas>
+            </div>
+            
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/chroma-js@2.1.2/chroma.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="../static/index.js"></script>
+
+            
+    </main>
+    {% endblock%}
