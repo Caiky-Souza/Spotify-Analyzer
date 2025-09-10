@@ -1,7 +1,10 @@
 import base64
+import dotenv
 
-client_id = "a8ef01ac0fe5424099a03513167104b9"
-client_secret = "e504b050627247cdb4996204e91d61ab"
+dotenv.load_getenv()
+client_id = os.getenv("client_id")
+client_secret = os.getenv("client_secret")
+
 
 api_url = "https://api.spotify.com"
 auth_string_bytes = f"{client_id}:{client_secret}".encode("utf-8")
