@@ -1,5 +1,4 @@
 flask
 functools
 python-dotenv
-base64
 requests
