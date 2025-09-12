@@ -20,7 +20,7 @@ DISCLAIMER: THIS PROJECT IS NOT AFFILIATED WITH, OR IN ANY WAY OFFICIALY CONNECT
 - Usage of jinja2 templates with flask, aiming to reduce code
 
 # Preview
-[![Watch the video](ops)](assets/assets_video.mp4)
+[![Watch the video](ops)](https://vimeo.com/manage/videos/1118137951)
 
 # Images
 
