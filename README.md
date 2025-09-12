@@ -22,7 +22,8 @@ DISCLAIMER: THIS PROJECT IS NOT AFFILIATED WITH, OR IN ANY WAY OFFICIALY CONNECT
 # Preview
 [![Watch the video](ops)](https://vimeo.com/manage/videos/1118137951)
 
-![Live Deploy](https://spotify-analyzer-w5n7.onrender.com/)
+[![Live Deploy](ops)](https://spotify-analyzer-w5n7.onrender.com/)
+
 # Images
 
 ## Login Screen
