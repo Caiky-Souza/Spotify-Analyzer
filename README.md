@@ -5,7 +5,7 @@ A Open Source web application that aims to analyse your spotify account and give
 
 This project was built with Flask, HTML, CSS, Javascript and Chart.js.
 
-OBS: Dues to spotify API limitations, only whitelisted users can acess these analysis and login on the site, but you can check the preview in the preview section, with also images.
+⚠️ OBS: Dues to spotify API limitations, only whitelisted users can acess these analysis and login on the site, but you can check the preview video in the preview section, with also images.
 
 DISCLAIMER: THIS PROJECT IS NOT AFFILIATED WITH, OR IN ANY WAY OFFICIALY CONNECTED TO SPOTIFY. ALL LOGOS, TRADEMARKS AND BRAND NAMES ARE PROPERTY OF THEIR RESPECTIVE OWNERS. THIS PROJECT IS FOR EDUCATIONAL PURPOSE ONLY.
 
